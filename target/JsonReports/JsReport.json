@@ -1,0 +1,885 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2024-02-29T13:18:50.644Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3330834000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.preCondition2()"
+            }
+          },
+          {
+            "result": {
+              "duration": 151881500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.preCondition1()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "To create account with email in Fb application",
+        "description": "",
+        "id": "to-validate-account-creation-feature-in-facebook;to-create-account-with-email-in-fb-application",
+        "after": [
+          {
+            "result": {
+              "duration": 345100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.postCondition2(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 1139420600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.postCondition1()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2712601500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "To launch Url in browser",
+            "match": {
+              "location": "AccountCreation.to_launch_Url_in_browser()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 155529600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "To click Create New Account Button",
+            "match": {
+              "location": "AccountCreation.to_click_Create_New_Account_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2168395900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "To pass first name in Firstname field",
+            "match": {
+              "location": "AccountCreation.to_pass_first_name_in_Firstname_field(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Java",
+                  "Selenium",
+                  "Cucumber"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 148109500,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "To pass last name in Surname field",
+            "match": {
+              "location": "AccountCreation.to_pass_last_name_in_Surname_field(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "java@123",
+                  "5676543",
+                  "Cucumber@846"
+                ]
+              },
+              {
+                "cells": [
+                  "876545",
+                  "sql9346",
+                  "3456776"
+                ]
+              },
+              {
+                "cells": [
+                  "Framework@466",
+                  "8765423",
+                  "Maven@645"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 227699200,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "To pass email in email or mobile field",
+            "match": {
+              "location": "AccountCreation.to_pass_email_in_email_or_mobile_field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 384437200,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "To Select your Date of bearth",
+            "match": {
+              "location": "AccountCreation.to_Select_your_Date_of_bearth()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Feature1"
+          },
+          {
+            "name": "@Sanity"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-02-29T13:19:01.071Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2086377300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.preCondition2()"
+            }
+          },
+          {
+            "result": {
+              "duration": 164066500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.preCondition1()"
+            }
+          }
+        ],
+        "line": 26,
+        "name": "To create account with phone number in Fb application",
+        "description": "",
+        "id": "to-validate-account-creation-feature-in-facebook;to-create-account-with-phone-number-in-fb-application",
+        "after": [
+          {
+            "result": {
+              "duration": 68100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.postCondition2(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 854072300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.postCondition1()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2702834900,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "To launch Fb url in Chrome",
+            "match": {
+              "location": "AccCreUsingPhone.to_launch_Fb_url_in_Chrome()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 123530100,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "To click Cre New Acc Button",
+            "match": {
+              "location": "AccCreUsingPhone.to_click_Cre_New_Acc_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2163658300,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "To pass first name in Firstname text box",
+            "match": {
+              "location": "AccCreUsingPhone.to_pass_first_name_in_Firstname_text_box(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Firstname One",
+                  "Sathish"
+                ]
+              },
+              {
+                "cells": [
+                  "Firstname Two",
+                  "Kumaresh"
+                ]
+              },
+              {
+                "cells": [
+                  "Firstname Three",
+                  "Java"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 112866200,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "To pass last name in Surname text box",
+            "match": {
+              "location": "AccCreUsingPhone.to_pass_last_name_in_Surname_text_box(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Lastname One",
+                  "Lastname Two",
+                  "Lastname Three"
+                ]
+              },
+              {
+                "cells": [
+                  "S",
+                  "K",
+                  "B"
+                ]
+              },
+              {
+                "cells": [
+                  "B",
+                  "R",
+                  "Y"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 173447600,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "To pass phone number in email or mobile field",
+            "match": {
+              "location": "AccCreUsingPhone.to_pass_phone_number_in_email_or_mobile_field()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Feature1"
+          },
+          {
+            "name": "@Scenario2"
+          }
+        ]
+      }
+    ],
+    "name": "To validate Account Creation Feature in Facebook",
+    "description": "",
+    "id": "to-validate-account-creation-feature-in-facebook",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/01_AccountCreation.feature",
+    "tags": [
+      {
+        "name": "@Feature1",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2024-02-29T13:19:09.453Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2184504100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.preCondition2()"
+            }
+          },
+          {
+            "result": {
+              "duration": 161391000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.preCondition1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 176000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.preCondition3()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "To validate login feature with valid username valid password",
+        "description": "",
+        "id": "to-validate-login-feature-in-fb-application;to-validate-login-feature-with-valid-username-valid-password",
+        "after": [
+          {
+            "result": {
+              "duration": 37800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.postCondition2(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 870187400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.postCondition1()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2531433800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "To launch FB application in edge browser",
+            "match": {
+              "location": "FBLoginFunctionality.to_launch_FB_application_in_edge_browser()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 225569700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "To pass valid email into email text box",
+            "match": {
+              "location": "FBLoginFunctionality.to_pass_valid_email_into_email_text_box()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 188401900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "To pass valid password into password text box",
+            "match": {
+              "location": "FBLoginFunctionality.to_pass_valid_password_into_password_text_box()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 165514600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "To click login button",
+            "match": {
+              "location": "FBLoginFunctionality.to_click_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2463900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "To verify it should navigate to home page or error page",
+            "match": {
+              "location": "FBLoginFunctionality.to_verify_it_should_navigate_to_home_page_or_error_page()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Feature2"
+          },
+          {
+            "name": "@Smoke"
+          },
+          {
+            "name": "@Scenario3"
+          },
+          {
+            "name": "@Login"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-02-29T13:19:15.785Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1893056800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.preCondition2()"
+            }
+          },
+          {
+            "result": {
+              "duration": 134508000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.preCondition1()"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "To validate positive and negative comibation TestCase",
+        "description": "",
+        "id": "to-validate-login-feature-in-fb-application;to-validate-positive-and-negative-comibation-testcase;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 39700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.postCondition2(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 842887300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.postCondition1()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2643916600,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "To launch url of the application",
+            "match": {
+              "location": "PositiveAndNegativeTestCase.to_launch_url_of_the_application()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 183484500,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "To pass positive and negative \"java@gmail.com\" data to email field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"java@gmail.com\"",
+                  "offset": 30
+                }
+              ],
+              "location": "PositiveAndNegativeTestCase.to_pass_positive_and_negative_data_to_email_field(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 191024700,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "To pass positive \"Java@123\" and negative data to password field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Java@123\"",
+                  "offset": 17
+                }
+              ],
+              "location": "PositiveAndNegativeTestCase.to_pass_positive_and_negative_data_to_password_field(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 159211500,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Click login button",
+            "match": {
+              "location": "PositiveAndNegativeTestCase.click_login_button()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Feature2"
+          },
+          {
+            "name": "@Regression"
+          },
+          {
+            "name": "@Scenario4"
+          },
+          {
+            "name": "@Sanity"
+          },
+          {
+            "name": "@Smoke"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-02-29T13:19:21.835Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2093113600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.preCondition2()"
+            }
+          },
+          {
+            "result": {
+              "duration": 175156900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.preCondition1()"
+            }
+          }
+        ],
+        "line": 22,
+        "name": "To validate positive and negative comibation TestCase",
+        "description": "",
+        "id": "to-validate-login-feature-in-fb-application;to-validate-positive-and-negative-comibation-testcase;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 55300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.postCondition2(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 849563500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.postCondition1()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 445708800,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "To launch url of the application",
+            "match": {
+              "location": "PositiveAndNegativeTestCase.to_launch_url_of_the_application()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1840865200,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "To pass positive and negative \"cucumber@gmail.com\" data to email field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"cucumber@gmail.com\"",
+                  "offset": 30
+                }
+              ],
+              "location": "PositiveAndNegativeTestCase.to_pass_positive_and_negative_data_to_email_field(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 217981500,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "To pass positive \"Cucumber@123\" and negative data to password field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Cucumber@123\"",
+                  "offset": 17
+                }
+              ],
+              "location": "PositiveAndNegativeTestCase.to_pass_positive_and_negative_data_to_password_field(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 156153600,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Click login button",
+            "match": {
+              "location": "PositiveAndNegativeTestCase.click_login_button()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Feature2"
+          },
+          {
+            "name": "@Regression"
+          },
+          {
+            "name": "@Scenario4"
+          },
+          {
+            "name": "@Sanity"
+          },
+          {
+            "name": "@Smoke"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-02-29T13:19:27.614Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1859323400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.preCondition2()"
+            }
+          },
+          {
+            "result": {
+              "duration": 143130300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.preCondition1()"
+            }
+          }
+        ],
+        "line": 23,
+        "name": "To validate positive and negative comibation TestCase",
+        "description": "",
+        "id": "to-validate-login-feature-in-fb-application;to-validate-positive-and-negative-comibation-testcase;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 59100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.postCondition2(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 820288000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.postCondition1()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3323390800,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "To launch url of the application",
+            "match": {
+              "location": "PositiveAndNegativeTestCase.to_launch_url_of_the_application()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 186981500,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "To pass positive and negative \"selenium@gmail.com\" data to email field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"selenium@gmail.com\"",
+                  "offset": 30
+                }
+              ],
+              "location": "PositiveAndNegativeTestCase.to_pass_positive_and_negative_data_to_email_field(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 220762700,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "To pass positive \"Selenium@123\" and negative data to password field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Selenium@123\"",
+                  "offset": 17
+                }
+              ],
+              "location": "PositiveAndNegativeTestCase.to_pass_positive_and_negative_data_to_password_field(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 130918200,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Click login button",
+            "match": {
+              "location": "PositiveAndNegativeTestCase.click_login_button()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Feature2"
+          },
+          {
+            "name": "@Regression"
+          },
+          {
+            "name": "@Scenario4"
+          },
+          {
+            "name": "@Sanity"
+          },
+          {
+            "name": "@Smoke"
+          }
+        ]
+      }
+    ],
+    "name": "To validate login feature in FB application",
+    "description": "",
+    "id": "to-validate-login-feature-in-fb-application",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/02_FacebookLogin.feature",
+    "tags": [
+      {
+        "name": "@Feature2",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

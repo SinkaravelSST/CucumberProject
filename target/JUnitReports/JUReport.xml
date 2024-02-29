@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="6" time="43.648582">
+    <testcase classname="To validate Account Creation Feature in Facebook" name="To create account with email in Fb application" time="10.423432">
+        <system-out>
+            <![CDATA[When To launch Url in browser...............................................passed
+And To click Create New Account Button......................................passed
+And To pass first name in Firstname field...................................passed
+And To pass last name in Surname field......................................passed
+And To pass email in email or mobile field..................................passed
+And To Select your Date of bearth...........................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="To validate Account Creation Feature in Facebook" name="To create account with phone number in Fb application" time="8.381644">
+        <system-out>
+            <![CDATA[When To launch Fb url in Chrome.............................................passed
+And To click Cre New Acc Button.............................................passed
+And To pass first name in Firstname text box................................passed
+And To pass last name in Surname text box...................................passed
+And To pass phone number in email or mobile field...........................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="To validate login feature in FB application" name="To validate login feature with valid username valid password" time="6.330339">
+        <system-out>
+            <![CDATA[When To launch FB application in edge browser...............................passed
+And To pass valid email into email text box.................................passed
+And To pass valid password into password text box...........................passed
+And To click login button...................................................passed
+And To verify it should navigate to home page or error page.................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="To validate login feature in FB application" name="To validate positive and negative comibation TestCase" time="6.048668">
+        <system-out>
+            <![CDATA[When To launch url of the application.......................................passed
+When To pass positive and negative "java@gmail.com" data to email field.....passed
+And To pass positive "Java@123" and negative data to password field.........passed
+And Click login button......................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="To validate login feature in FB application" name="To validate positive and negative comibation TestCase 2" time="5.779187">
+        <system-out>
+            <![CDATA[When To launch url of the application.......................................passed
+When To pass positive and negative "cucumber@gmail.com" data to email field.passed
+And To pass positive "Cucumber@123" and negative data to password field.....passed
+And Click login button......................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="To validate login feature in FB application" name="To validate positive and negative comibation TestCase 3" time="6.685312">
+        <system-out>
+            <![CDATA[When To launch url of the application.......................................passed
+When To pass positive and negative "selenium@gmail.com" data to email field.passed
+And To pass positive "Selenium@123" and negative data to password field.....passed
+And Click login button......................................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>

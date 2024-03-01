@@ -41,6 +41,7 @@ public class AccCreUsingPhone extends BaseClass {
 		Thread.sleep(2000); 
 		Map<String, String> m = d.asMap(String.class, String.class);
 		passText(s.getFirstName(), m.get("Firstname Two")); 
+		Assert.assertTrue(false);  
 	}
 
 	@When("To pass last name in Surname text box")

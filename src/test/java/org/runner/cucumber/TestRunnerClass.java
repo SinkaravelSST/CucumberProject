@@ -1,4 +1,5 @@
 package org.runner.cucumber;
+
 import org.junit.AfterClass;
 import org.junit.runner.RunWith;
 import org.jvm.report.generate.Jvm_Report;
@@ -19,7 +20,7 @@ import cucumber.api.junit.Cucumber;
 						"junit:target\\JUnitReports\\JUReport.xml", 
 						"json:target\\JsonReports\\JsReport.json", 
 						"rerun:src\\test\\resources\\FailedScenarios\\failed.txt"}) 
-public class TestRunnerClass{
+public class TestRunnerClass {
 	
 	@AfterClass
 	public static void repGenerate () {
